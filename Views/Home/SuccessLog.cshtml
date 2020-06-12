@@ -3,10 +3,13 @@
 }
 
 
-<div class="jumbotron">
-    <div class="mx-auto" style="width: 600px;">
-        <h1 class="display">Welcome!</h1>
-        <hr>
-        <p class="lead">Thanks for logging in.</p>
+<div class="text-center">
+    <div class="jumbotron">
+        <div class="mx-auto" style="width: 600px;">
+            <h1 class="display">Welcome @ViewBag.FirstName!</h1>
+            <hr>
+            <p class="lead">Thanks for logging in.</p>
+        </div>
+        <a class="btn btn-primary mb-3" asp-action="Logout" asp-controller="Home" role="button">Log Out</a>
     </div>
 </div>

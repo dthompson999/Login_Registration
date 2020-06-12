@@ -4,7 +4,7 @@ namespace Login_Registration.Models
     public class UserLog
     {
         [Required]
-        [DataType(DataType.Password)]
+        [DataType(DataType.EmailAddress)]
         [EmailAddress]
         public string LoginEmail { get; set; }
 
